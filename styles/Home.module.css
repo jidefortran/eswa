@@ -1,0 +1,136 @@
+.container {
+ 
+}
+
+.cardTextContainer{
+    color: #fff;
+    height: auto;
+    max-height: 0;
+   
+   
+    transition: max-height 1s ease-out;
+    transition-delay: 1s;
+}
+.cardTextWrap{
+    opacity: 1;
+    transform: translate3d(0,-12.875rem,0);
+    transition-duration: .8s;
+    transition-property: transform,opacity;
+    transition-timing-function: ease-in-out;
+    will-change: transform,opacity;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+
+.cardImageContainer{
+ bottom: 0;
+height: 100%;
+top: 0;
+transform: scale(1);
+transition: transform .3s ease-in-out;
+width: 100%;  
+}
+.cardImageContainer::after{
+    content: "";
+    transition: opacity .3s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.cardImageContainer::after{
+    background: transparent linear-gradient(0deg,#000 0%,rgba(0,0,0,.4) 100%) 0% 0% no-repeat padding-box;
+    opacity: .4;
+
+
+}
+
+.cardGrid{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 4rem;
+}
+
+.gridTemplateOne{
+ /* width: 100%; */
+    display: flex;
+    gap: 4rem;
+}
+
+
+.cardArticle{
+    opacity: 1;
+    transform: translateZ(0);
+    transition-duration: .8s;
+    transition-property: transform,opacity;
+    transition-timing-function: ease-in-out;
+    will-change: transform,opacity;
+}
+.parallax{
+    height: 100%;
+}
+
+.cardContent{
+    align-items: flex-end;
+    padding: .75rem;
+}
+
+.image-overlay {
+    background: transparent linear-gradient(0deg,#000 0%,rgba(0,0,0,.4) 100%) 0% 0% no-repeat padding-box;
+    opacity: .4;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 177px;
+    background: transparent radial-gradient(closest-side at 50% 50%,#51a025 0%,#13670b 71%,#005d1f 100%) 0% 0% no-repeat padding-box;
+    opacity: .7;
+    height: 46%;
+    width: 63%;
+}
+
+.cardTitle{
+    font-size: 1.5rem;
+    letter-spacing: .015rem;
+    line-height: 1.875rem;
+    color:var(white);
+    font-family: Main,PT Sans,serif;
+    margin-bottom: 0;
+
+    z-index: 3;
+}
+.cardText{
+    color: var(white);
+    margin-bottom: 0;
+  
+    font-size: .625rem;
+    letter-spacing: .0625rem;
+    line-height: .8125rem
+}
+
+.sectionWrapper{
+    margin-top: 1.5rem;
+    display: flex;
+    overflow-x: scroll;
+
+}
+
+@media (min-width: 64rem){
+.grid--template-two {
+    grid-gap: 1.25rem;
+    -ms-grid-rows: 1fr;
+    -ms-grid-columns: 1fr 1.25rem 1fr;
+    grid-template: "a b" 1fr/1fr 1fr;
+}
+}

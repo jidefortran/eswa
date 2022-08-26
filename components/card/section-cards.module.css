@@ -1,0 +1,32 @@
+.sectionWrapper{
+    display: grid;
+     align-content: center;
+     grid-template-columns: 160px 0.1fr 1fr; 
+     grid-template-rows: 90px 0.3fr 0.2fr;
+     gap: 20px;
+     padding-left: 5rem;
+     padding-right: 5rem
+;
+    grid-template-areas: 
+    'title image image'
+    'text image  image'
+    'button image image';
+}
+    .SectionImage{grid-area:image;}
+    .text{grid-area: text;}
+    .title{grid-area: title;}
+    .button{grid-area: button;}
+
+.cardWrap{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 1.7rem;
+    flex-direction: row;
+   
+
+}
+
+.container{
+    transform: translate(230px, 50px);
+}

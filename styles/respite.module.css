@@ -1,0 +1,24 @@
+.wrapperContainer {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0 px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "pic1 text pic2 "
+      "pic1 text pic2 ";
+  }
+  
+  .pic1 { grid-area: pic1; }
+  
+  .pic2 { grid-area: pic2; }
+  
+  .text { grid-area: text; }
+
+  .text{background-color: var(--black);
+margin-bottom: 3px;}
+
+
+  .picSize{
+
+  object-fit: contain;
+  }

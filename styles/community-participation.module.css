@@ -1,0 +1,38 @@
+.container{
+    
+    /* margin: 0 auto;
+    max-width: 1440px; */
+}
+.textContainer{
+
+}
+
+.imageContainer{
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "text pic1 pic2 "
+          "text pic3 pic2 ";
+      }
+      
+      .pic2 { grid-area: pic2; }
+      
+      .pic1 { grid-area: pic1; }
+      
+      .pic3 { grid-area: pic3; }
+      
+    
+      .text { grid-area: text; }
+      
+
+      .picSize{
+      
+         object-fit: contain;
+      }
+      .textContainer ,  .buttonWrapper {
+        padding-left: 20px;
+      }
+
