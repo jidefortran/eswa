@@ -33,9 +33,45 @@ export default function Contact(){
             
         </div>
     </div>
-    <form>
-       
+    <form className={style.forms}>
+        <div className={style.col}>
+       <div className={style.formGroup}>
+ <label>First Name</label>
+ <input type="text" />
+       </div>
+       <div className={style.formGroup}>
+ <label>Last Name</label>
+ <input type="text" />
+       </div>
+       </div>
+       <div className={style.col}>
+       <div className={style.formGroup}>
+ <label>Email</label>
+ <input type="email" />
+       </div>
 
+       <div className={style.formGroup}>
+ <label>Phone</label>
+ <input type="tel" />
+       </div>
+       </div>
+       
+       <div className={style.colArea}>
+       <div className={style.formGroup}>
+       
+ <label>Message</label>
+ <textarea></textarea>
+       </div>
+      
+       </div>
+       <div className={style.butCss}>
+       <div className={style.col}>
+       <div className={style.formGroup }>
+       
+<button className={style.primary}>Send Message</button>
+       </div>
+       </div>
+       </div>
     </form>
 </div>
 
