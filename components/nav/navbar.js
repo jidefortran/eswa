@@ -90,7 +90,7 @@ setShowDropdown(!showDropdown)
 </nav>
     
     </li>
-    <li className={styles.navItem2}> <Link href="/our-story"> Our Story  </Link></li>
+    <li className={styles.navItem2}> <Link href="/about"> Our Story  </Link></li>
     <li  className={styles.navItem2}> <Link href = "/contact"> Contact</Link></li>
     <li  className={styles.navItem2} >  <Link href = "/join-us">Join Us </Link></li>
    </ul>

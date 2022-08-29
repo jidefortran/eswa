@@ -277,3 +277,14 @@ footer .bottom-details .bottom_text{
     width: 100%;
   }
 }
+
+
+
+/* contactPage */
+
+
+.fa{
+  flex: 0 1 20px;
+  font-size: 2.2rem;
+  margin-right: 2rem;
+}
