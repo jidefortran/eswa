@@ -9,13 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
     "classnames": "^2.3.1",
+    "dotenv": "^16.0.1",
     "framer-motion": "^7.2.0",
     "next": "12.2.4",
     "nuka-carousel": "^5.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.54.5"
+    "sass": "^1.54.5",
+    "sendgrid": "^5.2.3"
   },
   "devDependencies": {
     "eslint": "8.21.0",
