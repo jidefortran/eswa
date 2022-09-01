@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Footer from "../components/footer/footer"
+import NavBar from "../components/nav/navbar"
 import style from "../styles/contact.module.scss";
 export default function Contact() {
   const [values, setValues] = useState({
@@ -33,7 +35,9 @@ export default function Contact() {
   //     console.log(formData);
   //   }
   return (
+  
     <div className={style.conContainer}>
+        <NavBar/>
       <h1>Contact Us</h1>
       <p>Lorem Ipsum</p>
       <div id={style.contactContainer}>
@@ -127,6 +131,8 @@ export default function Contact() {
           </div>
         </form>
       </div>
+      <Footer />
     </div>
+    
   );
 }

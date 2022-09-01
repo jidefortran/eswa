@@ -10,7 +10,7 @@ const Card =(props)=>{
         'medium': styles.mdItem
     }
     const handleOnError= ()=>{
-setImgSrc("/static/about-us.jpg")
+setImgSrc("/static/contact.jpeg")
     }
     const [imgSrc, setImgSrc] = useState(imgUrl)
     return (

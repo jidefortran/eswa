@@ -41,7 +41,33 @@ a {
 
 
 }
+h1 {
+  font-size:4rem;
+ ;
+  font-weight: 700;
+  font-family: 'PT Sans';
+  letter-spacing: .015rem;
+  line-height: 1.875rem;
+}
 
+h2{
+ font-size:3rem;
+  
+  font-weight: 700;
+  font-family: 'PT Sans';
+  letter-spacing: .015rem;
+  line-height: 1.875rem;
+}
+
+h3{
+  font-size:2rem;
+   
+   font-weight: 700;
+   font-family: 'PT Sans';
+   letter-spacing: .015rem;
+   line-height: 1.875rem;
+ }
+ 
 
 
 
@@ -287,4 +313,25 @@ footer .bottom-details .bottom_text{
   flex: 0 1 20px;
   font-size: 2.2rem;
   margin-right: 2rem;
+}
+
+button{
+  
+  background: #083880;
+
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-weight: 700;
+  letter-spacing: .031875rem;
+  padding: .9375rem 1.25rem;
+  text-align: center;
+  width: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  transition-property: background-color,color,border;
+  transition-duration: .15s;
+  transition-timing-function: cubic-bezier(.4,0,1,1);
 }

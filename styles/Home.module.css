@@ -94,14 +94,14 @@ width: 100%;
     left: 0;
     right: 0;
     top: 177px;
-    background: transparent radial-gradient(closest-side at 50% 50%,#51a025 0%,#13670b 71%,#005d1f 100%) 0% 0% no-repeat padding-box;
+    background: transparent radial-gradient(closest-side at 50% 50%,#095ab8 0%,#083880 71%,#00195d 100%) 0% 0% no-repeat padding-box;
     opacity: .7;
     height: 46%;
     width: 63%;
 }
 
 .cardTitle{
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     letter-spacing: .015rem;
     line-height: 1.875rem;
     color:var(white);

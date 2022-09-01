@@ -11,6 +11,7 @@ class MyDocument extends Document {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet"/>
 
+
         </Head>
         <body>
           <Main />

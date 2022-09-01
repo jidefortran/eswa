@@ -71,13 +71,13 @@ setShowDropdown(!showDropdown)
         </Link>
     <nav className={styles.mainNav}>
    <ul className={styles.navItems}>
-    <li className={styles.navItem2} onClick={handleShowDropdown}>Services
+    <li className={styles.navItem2} onClick={handleShowDropdown}><div className={styles.service}>Services
       
-   <span><Image src={dropDown} alt="expandd drop down " width={"32px"} height={"32px"} color="white"/></span> 
+   <span className={styles.drop}><Image src={dropDown} alt="expand drop down " width={"32px"} height={"32px"} color="white"/></span> </div>
     <nav className={styles.navContainer}>
         
   {showDropdown && ( <div className={styles.navDropdown}>
-        <div>
+        <div className={styles.dropDown}>
         <p  className={styles.servies}> <Link href="/respite-short-stay"><a className={styles.linkName}  >Respite / Short Stay Accomodation</a></Link></p>
        <p className={styles.servies}> <Link href="/recovery-accommodation" ><a className={styles.linkName}>Recovery  Accomodation</a></Link></p>
        <p className={styles.servies}> <Link href="/community-participation"><a className={styles.linkName}>Community Paricipation Access</a></Link></p>

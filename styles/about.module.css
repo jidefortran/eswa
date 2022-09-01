@@ -1,0 +1,24 @@
+.contentWrapper{
+    display: flex;
+    padding: 0 4rem;
+    margin-bottom: 10rem;
+}
+.aboutLogo{
+    height: 400px;
+    object-fit: cover;
+    
+padding: 20px;;
+}
+
+.logoContainer{
+    padding: 60px;
+    background: transparent radial-gradient(closest-side at 50% 50%,#095ab8 0%,#083880 71%,#00195d 100%) 0% 0% no-repeat padding-box;
+
+}
+.contentContainer{
+    padding: 20px;
+}
+
+.aboutBanner{
+    margin-bottom: 10rem;
+}

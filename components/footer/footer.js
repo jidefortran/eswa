@@ -9,8 +9,8 @@ const Footer =()=>{
   <div class="content">
     <div class="top">
       <div class="logo-details">
-        <i class="fab fa-slack"></i>
-        <span class="logo_name">Logo</span>
+      <i class="fa-sharp fa-solid fa-globe"></i>
+        <span class="logo_name">Utmost Solutions WA</span>
       </div>
       <div class="media-icons">
         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -35,7 +35,7 @@ const Footer =()=>{
         <li><a href="#">Logo design</a></li>
         <li><a href="#">Banner design</a></li>
       </ul>
-      <ul class="box">
+      {/* <ul class="box">
         <li class="link_name">Account</li>
         <li><a href="#">Profile</a></li>
         <li><a href="#">My account</a></li>
@@ -48,17 +48,13 @@ const Footer =()=>{
         <li><a href="#">JavaScript</a></li>
         <li><a href="#">Photography</a></li>
         <li><a href="#">Photoshop</a></li>
-      </ul>
-      <ul class="box input-box">
-        <li class="link_name">Subscribe</li>
-        <li><input type="text" placeholder="Enter your email"/></li>
-        <li><input type="button" value="Subscribe"/></li>
-      </ul>
+      </ul> */}
+    
     </div>
   </div>
   <div class="bottom-details">
     <div class="bottom_text">
-      <span class="copyright_text">Copyright © 2021 <a href="#">Logo.</a>All rights reserved</span>
+      <span class="copyright_text">Copyright © 2022 <a href="http://www.jidefortran.com">jide fortran</a>All rights reserved</span>
       <span class="policy_terms">
         <a href="#">Privacy policy</a>
         <a href="#">Terms & condition</a>

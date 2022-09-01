@@ -61,6 +61,26 @@
 .navDropdown{
     position: absolute;
 }
+
+
+.service{
+
+}
+
+
+.drop{
+    position: absolute;
+}
+
+
+.dropDown{
+    width: 215%;
+    padding: 20px;
+    border-radius: 5px;
+  transition: all ease-in 3ms;
+    background: #1e307096;
+   
+}
 /* queries */
 
 
