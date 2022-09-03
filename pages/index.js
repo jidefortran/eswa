@@ -15,31 +15,31 @@ export default function Home() {
     {
     title:"Respite Short Say Accomodation",
     text:"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used",
-    imgUrl:"/static/contact.jpeg",
+    imgUrl:"/static/short-stay.jpg",
     link:"/respite-short-stay"
   },
   {
     title:"Recovery Accomodation",
     text:"In publishing and graphic design, Lorem ipsum is a ommonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used",
-    imgUrl:"/static/about.jpg",
+    imgUrl:"/static/recovery-accomodation.webp",
     link:"/recovery-accommodation"
   },
 {
   title: "Community Participation Access",
   text:"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the  without relying on meaningful content. Lorem ipsum may be used",
-    imgUrl:"/static/contact.jpeg",
+    imgUrl:"/static/community-participation.png",
     link:"/community-participation"
 },
 {
   title: "Supported Independent Living",
   text:"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the  without relying on meaningful content. Lorem ipsum may be used",
-    imgUrl:"/static/contact.jpeg",
+    imgUrl:"/static/sil.jpg",
     link:"/sil"
 },
 {
-  title: "Psycho Social Recovery Coach",
+  title: "Psychosocial Recovery Coach",
   text:"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the  without relying on meaningful content. Lorem ipsum may be used",
-    imgUrl:"/static/contact.jpeg",
+    imgUrl:"/static/recovert-coach.webp",
     link:"/psychosocial-recovery-coach"
 },
 ];
@@ -111,7 +111,7 @@ export default function Home() {
 </div></section>
 <div className={styles.sectionWrapper}>
 
-  Services
+  <h1 className={styles.service}>Services</h1>
   {serviceTitle.map((x)=>{
   console.log({x})
   return(

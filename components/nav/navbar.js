@@ -66,7 +66,7 @@ setShowDropdown(!showDropdown)
    
         <Link href={"/"}>
         <a className={styles.logoLink} href="/" >
-            <div className={styles.logoWrapper}><Image src={logo}  /></div>
+            <div className={styles.logoWrapper}><div><Image src={logo} /></div></div>
         </a>
         </Link>
     <nav className={styles.mainNav}>

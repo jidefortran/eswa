@@ -28,3 +28,10 @@
     padding: 1.375rem;
 }
 }
+
+@media  only screen and (max-width:480px) {
+    .lgItem{
+        width: 100%;
+    }
+    
+}

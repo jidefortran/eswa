@@ -2,6 +2,9 @@
  
 }
 
+.service{
+    margin-left: 55px;
+}
 .cardTextContainer{
     color: #fff;
     height: auto;
@@ -133,4 +136,14 @@ width: 100%;
     -ms-grid-columns: 1fr 1.25rem 1fr;
     grid-template: "a b" 1fr/1fr 1fr;
 }
+}
+
+@media (max-width:100rem) {
+    .gridTemplateOne{
+         flex-direction:column;
+    }
+   .cardGrid{
+    flex-direction: column;
+   }
+    
 }
