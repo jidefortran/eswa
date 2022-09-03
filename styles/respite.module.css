@@ -1,24 +1,83 @@
-.wrapperContainer {  display: grid;
+.wrapperContainer {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px 0 px;
     grid-auto-flow: row;
-    grid-template-areas:
-      "pic1 text pic2 "
-      "pic1 text pic2 ";
-  }
-  
-  .pic1 { grid-area: pic1; }
-  
-  .pic2 { grid-area: pic2; }
-  
-  .text { grid-area: text; }
+    grid-template-areas: "pic1 text pic2 " "pic1 text pic2 ";
+}
 
-  .text{background-color: var(--black);
-margin-bottom: 3px;}
+.pic1 {
+    grid-area: pic1;
+}
+
+.pic2 {
+    grid-area: pic2;
+}
+
+.text {
+    grid-area: text;
+}
+
+.text {
+    background-color: var(--black);
+    margin-bottom: 3px;
+}
+
+.picSize {
+    object-fit: contain;
+}
+
+.textContent {
+    color: #fff;
+    padding: 1.5rem;
+}
+
+.pic1 {}
 
 
-  .picSize{
+/* Extra small devices (phones, 600px and down) */
 
-  object-fit: contain;
-  }
+@media (max-width: 575.98px) {
+    .textContent {
+        font-size: 10vw;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+    .wrapperContainer {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr 1fr 1fr !important;
+        gap: 0px 0 px;
+        grid-template-areas: "pic1" "text" "pic2" !important;
+    }
+    .textContent {
+        font-size: 2.5vw !important;
+    }
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+    .wrapperContainer {
+        grid-template-areas: "pic1 text text " "pic2 text text ";
+    }
+    .textContent {
+        font-size: 2vw;
+    }
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1199.98px) {}
+
+
+/* X-Large devices (large desktops, less than 1400px) */
+
+@media (max-width: 1399.98px) {}
